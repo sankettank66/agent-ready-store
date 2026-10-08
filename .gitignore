@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.angular/
+.vite/
+coverage/
+*.log
+.env
+.DS_Store
+Thumbs.db
+tmp_fix.py
+check-*.mjs

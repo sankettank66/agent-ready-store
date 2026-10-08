@@ -1,0 +1,12 @@
+{
+  "name": "webmcp-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:react": "bun run --cwd webmcp-react dev -- --port 3001",
+    "dev:angular": "bun run --cwd webmcp-angular start -- --port 4200",
+    "build:react": "bun run --cwd webmcp-react build",
+    "build:angular": "bun run --cwd webmcp-angular build",
+    "verify": "bun verify.mjs"
+  }
+}
